@@ -1,0 +1,312 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: "Microsoft YaHei", "Helvetica Neue", "Arial", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti;
+}
+
+textarea {
+	resize: none !important;
+}
+
+.clear::after {
+	content: ".";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	font-size: 0;
+	height: 0;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #eee;
+	margin: -2px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #aaa;
+	min-height: 150px;
+	min-width: 150px;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+	background: #555555
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+	background: #555555
+}
+
+.tools-panel {
+	position: relative;
+}
+
+.tools-panel .hide-more {
+	display: none;
+}
+
+.table-head {
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+}
+
+.table-info {
+	margin-top: 10px;
+}
+
+.hide-span {
+	margin-left: 10px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.list-right .tools-more {
+	padding: 0px 1px;
+}
+
+.tools-more {
+	position: absolute;
+	padding: 0px 2px;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	background: #FFF;
+	transition: all 0.3s ease;
+}
+
+.tools-bar {
+	height: 36px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.btn-group {
+	text-align: right;
+}
+
+.tools-search {
+	float: left;
+}
+
+.tools-more-show {
+	cursor: pointer;
+	font-size: 14px;
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+}
+
+.route-show {}
+
+.info-wrap {
+	height: 36px;
+	line-height: 36px;
+}
+
+h3 {
+	margin-bottom: 20px;
+}
+
+.detail-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.info-wrap>div:nth-of-type(1) {
+	text-align: right;
+}
+
+.info-wrap .el-col-2,
+.info-wrap .el-col-1 {
+	text-align: center;
+}
+
+.button-bottom {
+	text-align: center;
+	margin-top: 30px;
+	z-index: 1;
+}
+
+.trans .active-page {
+	display: block;
+	transform: translateX(0%);
+}
+
+.transActive {
+	transform: translateX(-100%);
+}
+
+.listWrap {
+	transition: all 0.3s;
+}
+
+.list-left {
+	width: 190px;
+	position: absolute;
+	top: 60px;
+	bottom: 10px;
+	border-right: 1px solid rgb(230, 234, 238);
+	padding-right: 4px;
+}
+
+.list-right {
+	margin-left: 200px;
+}
+
+.list-left .filter-tree {
+	position: absolute;
+	width: 188px;
+	top: 40px;
+	bottom: 0;
+	overflow-y: auto;
+}
+
+.list-left .no-filter-tree {
+	position: absolute;
+	width: 188px;
+	top: 0px;
+	bottom: 0;
+	overflow-y: auto;
+}
+
+.more-search-btn {
+	padding-left: 120px;
+}
+
+.tools-more>div {
+	padding: 20px 0px;
+	padding-left: 20px;
+	max-width: 1024px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;
+}
+
+.tools-more label {
+	word-wrap: break-word;
+}
+
+.el-table__expanded-cell .el-form-item {
+	width: 50%;
+}
+
+.expand-table .el-table--border td,
+.expand-table .el-table--border th {
+	border-right: none;
+}
+
+.edit-page .el-form-item__content {
+	width: 300px;
+}
+
+.table-expand {
+	font-size: 0;
+	padding-left: 60px;
+}
+
+.table-expand .el-form-item {
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.list-view {
+	max-width: 1024px;
+	padding-bottom: 130px;
+}
+
+.button-bottom {
+	position: fixed;
+	right: 30px;
+	background-color: #fff;
+	bottom: 20px;
+	line-height: 70px;
+	left: 220px;
+	right: 30px;
+	height: 70px;
+	box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.0784313725490196);
+}
+
+.change-right .button-bottom {
+	left: 90px;
+}
+
+.bottom-parent {
+}
+
+.edit-page .el-date-editor.el-input {
+	width: 300px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.el-dialog__body .el-form-item__content {
+	width: 300px;
+}
+
+.dialog-bottom-button {
+	text-align: right;
+}
+ .el-tree-node__expand-icon::before{
+	width: 20px;
+    height: 36px;
+    display: block;
+    content: "";
+    position: relative;
+    top: -18px;
+    left: -18px;
+}
+.el-tree-node__content .expanded::before{
+	width: 36px;
+    height: 20px;
+    display: block;
+    content: "";
+    position: relative;
+    top: -8px;
+    left: -22px;
+}
+
+/*导入导出弹窗样式*/
+.upload-frame .el-input {
+		width: 300px;
+		float: left;
+	}
+	
+	.upload-frame .upload-button {
+		float: left;
+	}
+	
+	.upload-wrap {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.upload-wrap>div {
+		margin-top: 10px;
+	}
+	
+	.upload-operation {
+		text-align: center;
+	}
+	.warn-info{
+		background: #fef5e6;
+		border: 1px solid #fcebce;
+		border-radius: 4px;
+		height: 38px;
+		line-height:19px;
+		font-size: 12px;
+		padding: 15px 10px;
+	}
